@@ -33,9 +33,19 @@ body{
 
 
 main{
-    padding: 30px;
+    padding: 40px;
     margin: auto;
     text-align: center;
+}
+main h1{
+    color: darkgreen;
+    padding: 10px;
+}
+main p{
+    text-align: justify;
+    padding: 5px;
+    line-height: 1em;
+    text-indent: 20px;
 }
 
 
