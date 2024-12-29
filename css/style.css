@@ -13,6 +13,7 @@ header{
     width: 100vw;
     text-align: center;
     box-shadow: 0px 0px 10px rgba(0, 44, 0, 0.578);
+    min-height: 200px;
 }
 header h1{
     padding: 10px;
@@ -22,7 +23,7 @@ header h1{
 header p{
     padding: 10px;
     color: white;
-    line-height: 0.7em;
+    line-height: 1em;
 }
 
 
@@ -36,4 +37,17 @@ footer{
     margin: auto;
     width: 100vw;
     text-align: center;
+    min-height: 200px;
+}
+footer h1{
+    padding: 10px;
+    color: lightgreen;
+    font-variant: small-caps;
+    font-size: 1em;
+}
+footer p{
+    padding: 10px;
+    color: white;
+    line-height: 1em;
+    font-size: 1em;
 }
