@@ -42,7 +42,7 @@ body{
 
 
 main{
-    padding: 40px;
+    padding: 40px 20px;
     margin: auto;
     text-align: center;
 }
@@ -76,14 +76,15 @@ main h2{
     text-indent: 10px;
 }
 main img.pagcomic{
-    width: 80vw;
+    width: 80%;
+    display: inline-block;
+    margin: auto;
 }
-main a.pagchange{
-    display: inline;
+main img.pagchange{
+    margin: auto;
+    max-width: 10px;
+    display: inline-block;
     vertical-align: middle;
-    text-align: center;
-    text-decoration: none;
-    background-color: blue;
 }
 
 
