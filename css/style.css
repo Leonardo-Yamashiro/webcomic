@@ -19,9 +19,18 @@ header h1{
     color: lightgreen;
     font-variant: small-caps;
 }
+header p{
+    padding: 10px;
+    color: white;
+    line-height: 0.7em;
+}
+
+
 body{
     background-color: white;
 }
+
+
 footer{
     background-color: darkgreen;
     margin: auto;
