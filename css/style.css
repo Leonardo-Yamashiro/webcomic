@@ -75,10 +75,9 @@ main h2{
     text-indent: 10px;
 }
 main img.pagcomic{
-    width: 90vw;
-    display: block;
+    width: 90%;
     margin: auto;
-    padding: 30px 10px;
+    padding: 30px;
 }
 main a.pagchange{
     margin: auto;
