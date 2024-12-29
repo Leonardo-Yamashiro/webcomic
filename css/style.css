@@ -78,6 +78,13 @@ main h2{
 main img.pagcomic{
     width: 80vw;
 }
+main a.pagchange{
+    display: inline;
+    vertical-align: middle;
+    text-align: center;
+    text-decoration: none;
+    background-color: blue;
+}
 
 
 footer{
