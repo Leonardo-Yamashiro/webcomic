@@ -12,16 +12,16 @@ header{
     margin: auto;
     width: 100vw;
     text-align: center;
-    box-shadow: 0px 0px 10px rgba(0, 44, 0, 0.578);
+    box-shadow: 2px 2px 30px rgba(0, 44, 0, 0.685);
     min-height: 200px;
 }
 header h1{
-    padding: 10px;
+    padding: 30px 0px 10px 0px;
     color: lightgreen;
     font-variant: small-caps;
 }
 header p{
-    padding: 10px;
+    padding: 5px;
     color: white;
     line-height: 1em;
 }
@@ -32,21 +32,29 @@ body{
 }
 
 
+main{
+    padding: 30px;
+    margin: auto;
+    text-align: center;
+}
+
+
 footer{
     background-color: darkgreen;
     margin: auto;
     width: 100vw;
     text-align: center;
     min-height: 200px;
+    padding: 30px;
 }
 footer h1{
-    padding: 10px;
+    padding: 5px;
     color: lightgreen;
     font-variant: small-caps;
     font-size: 1em;
 }
 footer p{
-    padding: 10px;
+    padding: 5px;
     color: white;
     line-height: 1em;
     font-size: 1em;
