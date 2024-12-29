@@ -10,7 +10,6 @@
 header{
     background-color: rgb(0, 70, 0);
     margin: auto;
-    width: 100vw;
     text-align: center;
     box-shadow: 2px 2px 30px rgba(0, 44, 0, 0.685);
     min-height: 200px;
@@ -62,7 +61,7 @@ main img.paglink{
     max-width: 200px;
 }
 main img.paglink:hover{
-    box-shadow: 0px 0px 10px lightgreen;
+    background-color: lightgreen;
 }
 main h2{
     display: inline-block;
@@ -76,22 +75,28 @@ main h2{
     text-indent: 10px;
 }
 main img.pagcomic{
-    width: 80%;
-    display: inline-block;
+    width: 80vw;
+    display: block;
     margin: auto;
+    padding: 30px 10px;
 }
-main img.pagchange{
+main a.pagchange{
     margin: auto;
-    max-width: 10px;
-    display: inline-block;
-    vertical-align: middle;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(0, 70, 0);
+    padding: 10px;
+}
+main a.pagchange:hover{
+    background-color: darkgreen;
+    color: lightgreen;
+    border-radius: 30px;
 }
 
 
 footer{
     background-color: rgb(0, 70, 0);
     margin: auto;
-    width: 100vw;
     text-align: center;
     min-height: 200px;
     padding: 30px;
