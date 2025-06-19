@@ -57,23 +57,26 @@ main p{
     text-indent: 20px;
 }
 main img.paglink{
-    display: inline-block;
     padding: 10px 5px;
-    max-width: 200px;
+    display: inline-block;
 }
 main img.paglink:hover{
     background-color: lightgreen;
 }
 main h2{
-    display: inline-block;
     font-weight: normal;
-    max-width: 200px;
     padding: 10px 5px;
     font-size: 1em;
     vertical-align: top;
     text-align: start;
-    line-height: 1em;
-    text-indent: 10px;
+    display: inline;
+}
+main div.seletor{
+    display: flex;
+    flex-flow: row wrap;
+}
+main div.opcao{
+    flex: 0 0 450px;
 }
 main img.pagcomic{
     width: 90%;
