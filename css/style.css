@@ -58,7 +58,6 @@ main p{
 }
 main img.paglink{
     padding: 10px 5px;
-    display: inline-block;
 }
 main img.paglink:hover{
     background-color: lightgreen;
@@ -69,14 +68,17 @@ main h2{
     font-size: 1em;
     vertical-align: top;
     text-align: start;
-    display: inline;
 }
 main div.seletor{
     display: flex;
     flex-flow: row wrap;
+    justify-content: space-evenly;
 }
 main div.opcao{
     flex: 0 0 450px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
 }
 main img.pagcomic{
     width: 90%;
